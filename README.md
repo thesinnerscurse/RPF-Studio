@@ -8,7 +8,7 @@
 
 ## Скачать
 
-Готовая программа — на странице **[Releases](../../releases/latest)**: скачайте `RpfStudio.exe` и гайд (`.txt`).
+Готовая программа — на странице **[Releases](../../releases/latest)**: скачайте архив `RPF-Studio-v….zip` и распакуйте его WinRAR, 7-Zip или проводником Windows. Внутри — `RpfStudio.exe` и гайд.
 
 Установка не нужна. Работает на Windows 10/11 (нужен .NET Framework 4.x — он уже есть в Windows).
 
