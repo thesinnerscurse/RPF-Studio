@@ -14,10 +14,29 @@
 
 ## Что ещё понадобится
 
-RPF Studio — оболочка, сами программы нужно поставить отдельно:
+RPF Studio — оболочка, сами программы нужно поставить отдельно. В этот репозиторий они не входят: это чужие программы, а у ArchiveFix ещё и ключи шифрования игры.
 
-- **OpenIV** — редактор архивов GTA V.
-- **ArchiveFix** — утилита, которая перешифровывает архивы после OpenIV. Рядом с `ArchiveFix.exe` должны лежать его файлы `gtav_*.dat`. ArchiveFix **не входит** в этот репозиторий: его файлы содержат ключи шифрования игры.
+### 1. OpenIV — редактор архивов GTA V
+
+- ⬇️ **[Скачать OpenIV](https://openiv.com/WebIV/guest.php?get=1)** — установщик с официального сайта
+- Сайт: [openiv.com](https://openiv.com)
+
+### 2. ArchiveFix — перешифровывает архивы после OpenIV
+
+Официального сайта у ArchiveFix нет: автор (crypter) выложил его в 2016 году в теме на GTAForums.
+
+- 📄 **[Тема автора на GTAForums](https://gtaforums.com/topic/871168-affix-fix-your-rpf-archives-and-work-without-openiv/)** — описание и ссылка на скачивание
+- 📄 [Копия темы в Web Archive](https://web.archive.org/web/20230814232558/https://gtaforums.com/topic/871168-affix-fix-your-rpf-archives-and-work-without-openiv/) — если форум не открывается
+
+> ⚠️ Оригинальная ссылка на файл в теме старая и может уже не работать. Не качайте ArchiveFix с непонятных сайтов: под его видом бывают вирусы. Надёжнее всего спросить его в Discord своего RP-сервера.
+
+**После скачивания** распакуйте ArchiveFix в отдельную папку (например, на рабочий стол в `ArchiveFix`) и получите ключи — откройте командную строку в этой папке и выполните:
+
+```bat
+ArchiveFix.exe fetch
+```
+
+Рядом с `ArchiveFix.exe` появятся файлы `gtav_*.dat` — без них он не работает. Подробнее — в [инструкции на вики RAGE:MP](https://wiki.rage.mp/wiki/Using_Existing_Modifications_as_DLC_Packs#Initialising_ArchiveFix).
 
 Пути к OpenIV, ArchiveFix и GTA V программа ищет сама, а если не найдёт — их можно указать в «Настройках путей».
 
